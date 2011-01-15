@@ -1,4 +1,4 @@
-An easily customizable alternative to Apple's UIPageControl
+An easily customizable alternative to UIKit's UIPageControl
 
 DDPageControl redefines exactly every property and methods available in UIPageControl.
 Using DDPageControl without customization will actually lead exactly to a UIPageControl.
