@@ -1,0 +1,490 @@
+TDDPageControl
+v7
+r0
+t316740334.215430
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/Page Control.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Info.plist" DDPageControl-Info.plist
+cCompileXIB "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib"
+cCompileXIB "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib"
+cProcessPCH /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch.gch DDPageControl_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch.gch DDPageControl_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/main.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlAppDelegate.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlViewController.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControl.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/main.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control" normal armv6
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlAppDelegate.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlViewController.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControl.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control" normal armv7
+cCreateUniversalBinary "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app.dSYM" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control"
+cProcessProductPackaging "/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision"
+cTouch "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent"
+cCodeSign "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h
+c000000004CC11AE6000000000000193C
+t1287723750
+s6460
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitDefines.h
+c000000004CC11AE700000000000001D1
+t1287723751
+s465
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.h
+c000000004D30C421000000000000051A
+t1295041569
+s1306
+i<Foundation/Foundation.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m
+c000000004D30C2AE0000000000001D2C
+t1295041198
+s7468
+i"DDPageControl.h"
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.h
+c000000004D301DCB00000000000001FF
+t1294998987
+s511
+i<UIKit/UIKit.h>
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m
+c000000004D301E2900000000000009F8
+t1294999081
+s2552
+i"DDPageControlAppDelegate.h"
+i"DDPageControlViewController.h"
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.h
+c000000004D30BB9100000000000001B2
+t1295039377
+s434
+i<UIKit/UIKit.h>
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m
+c000000004D30BDFB0000000000001019
+t1295039995
+s4121
+i"DDPageControlViewController.h"
+i"DDPageControl.h"
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib
+c000000004D3035CC00000000000045C0
+t1295005132
+s17856
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl_Prefix.pch
+c000000004D3015DB00000000000000C3
+t1294996955
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib
+c000000004D3015DA0000000000004E71
+t1294996954
+s20081
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControl.o
+t1295047533
+s64004
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlAppDelegate.o
+t1295047533
+s50948
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlViewController.o
+t1295047533
+s53568
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control
+t1295047533
+s39236
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control.LinkFileList
+c000000004D30DB6B00000000000002C0
+t1295047531
+s704
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/main.o
+t1295047533
+s6516
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControl.o
+t1295047533
+s62552
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlAppDelegate.o
+t1295047533
+s50864
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlViewController.o
+t1295047533
+s52640
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control
+t1295047533
+s38584
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control.LinkFileList
+c000000004D30DB6B00000000000002C0
+t1295047531
+s704
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/main.o
+t1295047533
+s6500
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent
+t1295047533
+s428
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app
+t1295047534
+s374
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app.dSYM
+t1295047533
+s102
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/DDPageControlViewController.nib
+t1295047532
+s1046
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Info.plist
+t1295047531
+s800
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/MainWindow.nib
+t1295047532
+s1135
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control
+t1295047533
+s83640
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/PkgInfo
+t1295047531
+s8
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/ResourceRules.plist
+t1295047531
+s485
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision
+t1295047533
+s7372
+
+N/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m
+c000000004D3015DB000000000000016B
+t1294996955
+s363
+i<UIKit/UIKit.h>
+
+N/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision
+c000000004D0D2EFA0000000000001CCC
+t1292709626
+s7372
+
+N/var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch.gch
+t1295047533
+s9983704
+
+N/var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch.gch
+t1295047533
+s10446552
+
+NDDPageControl-Info.plist
+c000000004D30991E000000000000038C
+t1295030558
+s908
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316740331#316740331#0(0"0(0#1#0"8642437920#0"0#
+
+CCodeSign "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"
+s316740333.963586
+e316740334.215384
+r1
+xCodeSign
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app
+lSLF07#2@48"CodeSign "build/Debug-iphoneos/Page Control.app"316740333#316740334#0(0"0(0#0#111"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app8642093440#825"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Damien Deville (689PB4N5HY)" "--resource-rules=/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/ResourceRules.plist" --entitlements "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControl.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316740333.307721
+e316740333.484288
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControl.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m316740333#316740333#0(0"0(0#0#97"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m8641096320#2273"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv6" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControl.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlAppDelegate.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316740333.181559
+e316740333.307604
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlAppDelegate.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m316740333#316740333#0(0"0(0#0#108"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m8642872864#2295"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv6" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlAppDelegate.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlViewController.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316740333.242682
+e316740333.408525
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlViewController.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m316740333#316740333#0(0"0(0#0#111"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m8641952864#2301"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv6" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/DDPageControlViewController.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/main.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316740333.179480
+e316740333.242566
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/main.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m316740333#316740333#0(0"0(0#0#80"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m8641560320#2247"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv6" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControl.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316740333.618580
+e316740333.747481
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControl.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m316740333#316740333#0(0"0(0#0#97"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m8641843680#2273"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv7" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControl.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControl.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlAppDelegate.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316740333.494416
+e316740333.618472
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlAppDelegate.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m316740333#316740333#0(0"0(0#0#108"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m8631356224#2295"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv7" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlAppDelegate.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlAppDelegate.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlViewController.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316740333.525833
+e316740333.665886
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlViewController.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m316740333#316740333#0(0"0(0#0#111"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m8641401824#2301"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv7" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/Classes/DDPageControlViewController.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/DDPageControlViewController.o"0#
+
+CCompileC build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/main.o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316740333.408764
+e316740333.494303
+r1
+xCompileC
+xbuild/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/main.o
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m316740333#316740333#0(0"0(0#0#80"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m8640363872#2247"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv7" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -include /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/main.m" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib"
+s316740331.650304
+e316740332.085278
+r1
+xCompileXIB
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib
+lSLF07#2@42"CompileXIB DDPageControlViewController.xib316740331#316740332#0(0"0(0#0#105"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib8641660704#692"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/DDPageControlViewController.nib" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControlViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib"
+s316740331.649335
+e316740332.112641
+r1
+xCompileXIB
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316740331#316740332#0(0"0(0#0#88"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib8640601632#658"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/MainWindow.nib" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource "build/Debug-iphoneos/Page Control.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s316740331.621738
+e316740331.635452
+r1
+xCpResource
+xbuild/Debug-iphoneos/Page Control.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist316740331#316740331#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8641293952#573"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"0#
+
+CCreateUniversalBinary "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control" normal "armv6 armv7"
+s316740333.814533
+e316740333.823668
+r1
+xCreateUniversalBinary
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary "build/Debug-iphoneos/Page Control.app/Page Control" normal "armv6 armv7"316740333#316740333#0(0"0(0#0#85"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/armv6 armv78637933920#710"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control" -output "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control"0#
+
+CGenerateDSYMFile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app.dSYM" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control"
+s316740333.823802
+e316740333.910433
+r1
+xGenerateDSYMFile
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app.dSYM
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control
+lSLF07#2@114"GenerateDSYMFile "build/Debug-iphoneos/Page Control.app.dSYM" "build/Debug-iphoneos/Page Control.app/Page Control"316740333#316740333#0(0"0(0#0#124"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control8634030656#488"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Page Control" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app.dSYM"0#
+
+CLd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control" normal armv6
+s316740333.484398
+e316740333.525707
+r1
+xLd
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control
+xnormal
+xarmv6
+lSLF07#2@173"Link /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control316740333#316740333#0(0"0(0#0#0"8637703168#1078"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" -filelist "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv6/Page Control"0#
+
+CLd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control" normal armv7
+s316740333.747584
+e316740333.814381
+r1
+xLd
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control
+xnormal
+xarmv7
+lSLF07#2@173"Link /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control316740333#316740333#0(0"0(0#0#0"8640997824#1078"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" -filelist "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Objects-normal/armv7/Page Control"0#
+
+CProcessInfoPlistFile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Info.plist" DDPageControl-Info.plist
+s316740331.622795
+e316740331.649206
+r1
+xProcessInfoPlistFile
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Info.plist
+xDDPageControl-Info.plist
+lSLF07#2@32"Process DDPageControl-Info.plist316740331#316740331#0(0"0(0#0#98"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl-Info.plist8641064640#731"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DDPageControl-Info.plist -genpkginfo "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/ResourceRules.plist" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/Info.plist"0#
+
+CProcessPCH /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch.gch DDPageControl_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s316740332.112792
+e316740333.179069
+r1
+xProcessPCH
+x/var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch.gch
+xDDPageControl_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile DDPageControl_Prefix.pch316740332#316740333#0(0"0(0#0#98"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl_Prefix.pch8642006336#2102"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv6" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl_Prefix.pch" -o /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-fluvophscxeajghjbfbhkwawzdnc/DDPageControl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch.gch DDPageControl_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316740332.113898
+e316740333.100184
+r1
+xProcessPCH
+x/var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch.gch
+xDDPageControl_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile DDPageControl_Prefix.pch316740332#316740333#0(0"0(0#0#98"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl_Prefix.pch8641811200#2102"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-generated-files.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-own-target-headers.hmap" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-all-target-headers.hmap" -iquote "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control-project-headers.hmap" "-F/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/include" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources/armv7" "-I/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/DerivedSources" -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/DDPageControl_Prefix.pch" -o /var/folders/6g/6gNJw1F5EYuPRlpsaBcs5U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DDPageControl_Prefix-gttulljjboedpsbjhgexnzxpsjto/DDPageControl_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision" "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision"
+s316740333.910546
+e316740333.911894
+r1
+xProcessProductPackaging
+x/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision" "build/Debug-iphoneos/Page Control.app/embedded.mobileprovision"316740333#316740333#0(0"0(0#0#136"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision8640327072#503"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Damien/Library/MobileDevice/Provisioning Profiles/9388FE9B-BD60-4DCC-8E43-6C73D497A74B.mobileprovision" -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent"
+s316740333.929140
+e316740333.963473
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent
+lSLF07#2@194"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent"316740333#316740333#0(0"0(0#0#153"/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent8637864864#523"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/DDPageControl.build/Debug-iphoneos/DDPageControl.build/Page Control.xcent"0#
+
+CTouch "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"
+s316740333.911963
+e316740333.929027
+r1
+xTouch
+x/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app
+lSLF07#2@117"Touch /Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app316740333#316740333#0(0"0(0#0#0"8640353088#343"    cd "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Damien/Documents/Xcode/Git/Perso/Private/Snappy Code/DDPageControl/build/Debug-iphoneos/Page Control.app"0#
+

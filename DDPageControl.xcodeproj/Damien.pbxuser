@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* DDPageControlAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 560}}";
+			sepNavSelRange = "{504, 0}";
+			sepNavVisRange = "{0, 511}";
+		};
+	};
+	1D3623250D0F684500981E51 /* DDPageControlAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1986, 1144}}";
+			sepNavSelRange = "{2552, 0}";
+			sepNavVisRange = "{0, 1516}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* DDPageControl */ = {
+		activeExec = 0;
+		executables = (
+			6DFFB61912E04D5B00515A0F /* DDPageControl */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* DDPageControlViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 560}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 434}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* DDPageControlViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 1833}}";
+			sepNavSelRange = "{3782, 2}";
+			sepNavVisRange = "{0, 1203}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6DFFB61912E04D5B00515A0F /* DDPageControl */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DDPageControl */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DDPageControl */,
+		);
+		codeSenseManager = 6DFFB62912E04D6000515A0F /* Code sense */;
+		executables = (
+			6DFFB61912E04D5B00515A0F /* DDPageControl */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					796,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316740327;
+			PBXWorkspaceStateSaveDate = 316740327;
+		};
+		perUserProjectItems = {
+			6D25DC2112E0FFF800C14497 /* PBXTextBookmark */ = 6D25DC2112E0FFF800C14497 /* PBXTextBookmark */;
+			6D25DC2212E0FFF800C14497 /* PBXTextBookmark */ = 6D25DC2212E0FFF800C14497 /* PBXTextBookmark */;
+			6D25DCD112E1137C00C14497 /* PBXTextBookmark */ = 6D25DCD112E1137C00C14497 /* PBXTextBookmark */;
+			6D4C9F1B12E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F1B12E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F1C12E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F1C12E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F1D12E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F1D12E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F1E12E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F1E12E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F1F12E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F1F12E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F2012E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F2012E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6D4C9F2112E0FBA4004A2BF6 /* PBXTextBookmark */ = 6D4C9F2112E0FBA4004A2BF6 /* PBXTextBookmark */;
+			6DFFB73512E06BA100515A0F /* PBXTextBookmark */ = 6DFFB73512E06BA100515A0F /* PBXTextBookmark */;
+			6DFFB73912E06BA100515A0F /* PBXTextBookmark */ = 6DFFB73912E06BA100515A0F /* PBXTextBookmark */;
+			6DFFB74012E06BA100515A0F /* PBXTextBookmark */ = 6DFFB74012E06BA100515A0F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6DFFB62812E04D6000515A0F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6D25DC2112E0FFF800C14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB62D12E0550E00515A0F /* DDPageControl.h */;
+		name = "DDPageControl.h: 26";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	6D25DC2212E0FFF800C14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB62E12E0550E00515A0F /* DDPageControl.m */;
+		name = "DDPageControl.m: 133";
+		rLen = 57;
+		rLoc = 3137;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 2260;
+	};
+	6D25DCD112E1137C00C14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB62E12E0550E00515A0F /* DDPageControl.m */;
+		name = "DDPageControl.m: 133";
+		rLen = 57;
+		rLoc = 3137;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 2260;
+	};
+	6D4C9F1B12E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB73C12E06BA100515A0F /* UIPageControl.h */;
+		name = "UIPageControl.h: 15";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 0;
+	};
+	6D4C9F1C12E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB73E12E06BA100515A0F /* UIControl.h */;
+		name = "UIControl.h: 67";
+		rLen = 59;
+		rLoc = 2608;
+		rType = 0;
+		vrLen = 1838;
+		vrLoc = 943;
+	};
+	6D4C9F1D12E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* DDPageControlAppDelegate.h */;
+		name = "DDPageControlAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	6D4C9F1E12E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DDPageControlAppDelegate.m */;
+		name = "DDPageControlAppDelegate.m: 88";
+		rLen = 0;
+		rLoc = 2552;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 0;
+	};
+	6D4C9F1F12E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DDPageControlViewController.h */;
+		name = "DDPageControlViewController.h: 17";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	6D4C9F2012E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DDPageControlViewController.m */;
+		name = "DDPageControlViewController.m: 122";
+		rLen = 2;
+		rLoc = 3782;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 0;
+	};
+	6D4C9F2112E0FBA4004A2BF6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6D4C9F2212E0FBA4004A2BF6 /* CGGeometry.h */;
+		name = "CGGeometry.h: 29";
+		rLen = 16;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 0;
+	};
+	6D4C9F2212E0FBA4004A2BF6 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	6DFFB61912E04D5B00515A0F /* DDPageControl */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DDPageControl;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	6DFFB62812E04D6000515A0F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6DFFB62912E04D6000515A0F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6DFFB62D12E0550E00515A0F /* DDPageControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 728}}";
+			sepNavSelRange = "{522, 0}";
+			sepNavVisRange = "{0, 1056}";
+		};
+	};
+	6DFFB62E12E0550E00515A0F /* DDPageControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 3939}}";
+			sepNavSelRange = "{3137, 57}";
+			sepNavVisRange = "{2260, 1103}";
+		};
+	};
+	6DFFB73512E06BA100515A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB73612E06BA100515A0F /* UIScrollView.h */;
+		name = "UIScrollView.h: 232";
+		rLen = 69;
+		rLoc = 13765;
+		rType = 0;
+		vrLen = 3254;
+		vrLoc = 11512;
+	};
+	6DFFB73612E06BA100515A0F /* UIScrollView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIScrollView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h;
+		sourceTree = "<absolute>";
+	};
+	6DFFB73912E06BA100515A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB73A12E06BA100515A0F /* UIKitDefines.h */;
+		name = "UIKitDefines.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	6DFFB73A12E06BA100515A0F /* UIKitDefines.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIKitDefines.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitDefines.h;
+		sourceTree = "<absolute>";
+	};
+	6DFFB73C12E06BA100515A0F /* UIPageControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIPageControl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPageControl.h;
+		sourceTree = "<absolute>";
+	};
+	6DFFB73E12E06BA100515A0F /* UIControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIControl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h;
+		sourceTree = "<absolute>";
+	};
+	6DFFB74012E06BA100515A0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6DFFB74112E06BA100515A0F /* UITouch.h */;
+		name = "UITouch.h: 30";
+		rLen = 57;
+		rLoc = 1144;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 1091;
+	};
+	6DFFB74112E06BA100515A0F /* UITouch.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UITouch.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITouch.h;
+		sourceTree = "<absolute>";
+	};
+}
