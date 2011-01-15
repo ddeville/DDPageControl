@@ -1,1 +1,12 @@
 An easily customizable alternative to Apple's UIPageControl
+
+DDPageControl redefines exactly every property and methods available in UIPageControl.
+Using DDPageControl without customization will actually lead exactly to a UIPageControl.
+
+However, the power of DDPageControl is that you can set some additional properties that will affect the way the look and feel of the page controls.
+
+There are two color properties: one for 'on' controls and one for 'off' controls. You are free to pass an alpha channel for any of these colors'
+
+You can also set the type of indicators you want as a filled circle or a simple ellipse.
+
+Finally, the diameter of every indicator and their spacing is also customisable by setting a couple of properties.
