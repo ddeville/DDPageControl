@@ -9,6 +9,9 @@
 *.perspectivev3
 *.pbxuser
 
+#for Xcode 4
+xcuserdata
+*.xcworkspace
 
 # Generated files
 VersionX-revision.h
