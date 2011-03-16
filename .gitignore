@@ -3,16 +3,18 @@
 .DS_store
 profile
 
-# XCode and built products
-*xcodeproj/*pbxuser*
-*xcodeproj/*per*
-*xcodeproj/*mode*
+# XCode
+*.mode*
+*.perspective*
+*.pbxuser*
 *tmproj
 External/GHUnit/*
+PLBlocks.framework/*
+*.pyc
 
 # for Xcode 4
-*xcodeproj/xcuserdata
-*xcodeproj/project.xcworkspace
+xcuserdata
+*.xcworkspace
 
 # built products
 build
@@ -23,5 +25,11 @@ build
 .svn
 CVS
 
-# Autosaved
+# Automatic backup files
 #~.nib/
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/                
+Backup[ ]of[ ]*.numbers/
