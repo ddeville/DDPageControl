@@ -12,13 +12,6 @@
 #define kDotDiameter	4.0f
 #define kDotSpace		12.0f
 
-@interface DDPageControl (Private)
-
-- (void)callTargetForValueChanged ;
-
-@end
-
-
 
 @implementation DDPageControl
 
@@ -285,29 +278,8 @@
 	else
 		self.currentPage = MIN(self.currentPage + 1, numberOfPages - 1) ;
 	
-	// call the target to alert that the value has changed
-	[self callTargetForValueChanged] ;
-}
-
-
-#pragma mark -
-#pragma mark Target calls
-
-- (void)callTargetForValueChanged
-{
-	// we get all targets for this object
-	NSSet *allTargets = [self allTargets] ;
-	NSArray *allActions ;
-	for (id target in allTargets)
-	{
-		// get all actions associated with this target and the control event UIControlEventValueChanged
-		allActions = [self actionsForTarget: target forControlEvent: UIControlEventValueChanged] ;
-		for (NSString *action in allActions)
-		{
-			// perform the selector (action) on the target
-			[target performSelector: NSSelectorFromString(action) withObject: self] ;
-		}
-	}
+	// send the value changed action to the target
+	[self sendActionsForControlEvents: UIControlEventValueChanged] ;
 }
 
 @end
