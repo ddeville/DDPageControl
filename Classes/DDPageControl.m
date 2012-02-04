@@ -98,7 +98,7 @@
 			if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
 			{
 				CGContextSetFillColorWithColor(context, onColorCG) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -1.0f, -1.0f)) ;
+				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
 			}
 			else
 			{
@@ -116,7 +116,7 @@
 			else
 			{
 				CGContextSetFillColorWithColor(context, offColorCG) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -1.0f, -1.0f)) ;
+				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
 			}
 		}
 		
