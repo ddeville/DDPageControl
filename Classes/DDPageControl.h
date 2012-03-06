@@ -16,9 +16,9 @@ typedef enum
 	DDPageControlTypeOnFullOffEmpty		= 1,
 	DDPageControlTypeOnEmptyOffFull		= 2,
 	DDPageControlTypeOnEmptyOffEmpty	= 3,
+    DDPageControlTypeImages             = 4
 }
 DDPageControlType ;
-
 
 @interface DDPageControl : UIControl 
 {
@@ -38,8 +38,8 @@ DDPageControlType ;
 - (CGSize)sizeForNumberOfPages:(NSInteger)pageCount ;
 
 /*
-	DDPageControl add-ons - all these parameters are optional
-	Not using any of these parameters produce a page control identical to Apple's UIPage control
+ DDPageControl add-ons - all these parameters are optional
+ Not using any of these parameters produce a page control identical to Apple's UIPage control
  */
 - (id)initWithType:(DDPageControlType)theType ;
 
@@ -48,8 +48,10 @@ DDPageControlType ;
 @property (nonatomic,retain) UIColor *onColor ;
 @property (nonatomic,retain) UIColor *offColor ;
 
+@property (nonatomic, retain) UIImage *onImage;
+@property (nonatomic, retain) UIImage *offImage;
+
 @property (nonatomic) CGFloat indicatorDiameter ;
 @property (nonatomic) CGFloat indicatorSpace ;
 
 @end
-
