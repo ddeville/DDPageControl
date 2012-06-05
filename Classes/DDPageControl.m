@@ -86,7 +86,7 @@
 	
 	// get the caller's colors it they have been set or use the defaults
 	UIColor *drawOnColor = onColor ? onColor : [UIColor colorWithWhite: 1.0f alpha: 1.0f];
-	UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 0.7f alpha: 0.5f];
+	UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 1.0f alpha: 0.3f];
 	
 	// actually draw the dots
 	for (int i = 0 ; i < numberOfPages ; i++)
