@@ -9,8 +9,8 @@
 #import "DDPageControl.h"
 
 
-#define kDotDiameter	4.0f
-#define kDotSpace		12.0f
+#define kDotDiameter	5.0f
+#define kDotSpace		11.0f
 
 
 @implementation DDPageControl
