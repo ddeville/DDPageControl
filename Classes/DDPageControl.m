@@ -9,8 +9,8 @@
 #import "DDPageControl.h"
 
 
-#define kDotDiameter	4.0f
-#define kDotSpace		12.0f
+#define kDotDiameter	5.0f
+#define kDotSpace		11.0f
 
 
 @implementation DDPageControl
@@ -83,10 +83,11 @@
 	CGFloat dotsWidth = self.numberOfPages * diameter + MAX(0, self.numberOfPages - 1) * space ;
 	CGFloat x = CGRectGetMidX(currentBounds) - dotsWidth / 2 ;
 	CGFloat y = CGRectGetMidY(currentBounds) - diameter / 2 ;
+	y += 0.5f; // Bump down to match UIPageControl
 	
 	// get the caller's colors it they have been set or use the defaults
 	UIColor *drawOnColor = onColor ? onColor : [UIColor colorWithWhite: 1.0f alpha: 1.0f];
-	UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 0.7f alpha: 0.5f];
+	UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 1.0f alpha: 0.3f];
 	
 	// actually draw the dots
 	for (int i = 0 ; i < numberOfPages ; i++)
