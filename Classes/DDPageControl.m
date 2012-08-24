@@ -25,6 +25,8 @@
 @synthesize offColor ;
 @synthesize indicatorDiameter ;
 @synthesize indicatorSpace ;
+@synthesize onImage ;
+@synthesize offImage ;
 
 #pragma mark -
 #pragma mark Initializers - dealloc
@@ -55,7 +57,9 @@
 {
 	[onColor release], onColor = nil ;
 	[offColor release], offColor = nil ;
-	
+    [onImage release], onImage = nil;
+	[offImage release], offImage = nil;
+
 	[super dealloc] ;
 }
 
@@ -83,48 +87,63 @@
 	CGFloat dotsWidth = self.numberOfPages * diameter + MAX(0, self.numberOfPages - 1) * space ;
 	CGFloat x = CGRectGetMidX(currentBounds) - dotsWidth / 2 ;
 	CGFloat y = CGRectGetMidY(currentBounds) - diameter / 2 ;
-	
-	// get the caller's colors it they have been set or use the defaults
-	UIColor *drawOnColor = onColor ? onColor : [UIColor colorWithWhite: 1.0f alpha: 1.0f];
-	UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 0.7f alpha: 0.5f];
-	
+	    
+    BOOL useImages = (onImage.length || offImage.length);
+
 	// actually draw the dots
 	for (int i = 0 ; i < numberOfPages ; i++)
 	{
-		CGRect dotRect = CGRectMake(x, y, diameter, diameter) ;
-		
-		if (i == currentPage)
-		{
-			if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
-			else
-			{
-				CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
-		}
-		else
-		{
-			if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
-			else
-			{
-				CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
-		}
-		
-		x += diameter + space ;
-	}
-	
-	// restore the context
-	CGContextRestoreGState(context) ;
+        if (useImages)
+        {
+            NSString *imageName = (i == currentPage) ? self.onImage : self.offImage;
+            UIImage *image = [UIImage imageNamed:imageName];
+
+            CGFloat height = (diameter * image.size.height) / image.size.width;
+            CGRect dotRect = CGRectMake(x, y, diameter, height) ;
+            
+            [image drawInRect:dotRect];
+        }
+        else
+        {           
+            // get the caller's colors it they have been set or use the defaults
+            UIColor *drawOnColor = onColor ? onColor : [UIColor colorWithWhite: 1.0f alpha: 1.0f];
+            UIColor *drawOffColor = offColor ? offColor : [UIColor colorWithWhite: 0.7f alpha: 0.5f];
+
+            CGRect dotRect = CGRectMake(x, y, diameter, diameter) ;
+
+            if (i == currentPage)
+            {
+                if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+                else
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+            }
+            else
+            {
+                if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+                else
+                {
+                    CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+            }
+        }
+        
+        x += diameter + space ;
+    }
+    
+    // restore the context
+    CGContextRestoreGState(context) ;
 }
 
 

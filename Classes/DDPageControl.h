@@ -51,5 +51,8 @@ DDPageControlType ;
 @property (nonatomic) CGFloat indicatorDiameter ;
 @property (nonatomic) CGFloat indicatorSpace ;
 
+@property (nonatomic, retain) NSString *onImage ;
+@property (nonatomic, retain) NSString *offImage ;
+
 @end
 
