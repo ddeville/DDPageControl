@@ -24,6 +24,7 @@ DDPageControlType ;
 {
 	NSInteger numberOfPages ;
 	NSInteger currentPage ;
+    UIImageView *dotImageView;
 }
 
 // Replicate UIPageControl features
@@ -47,6 +48,9 @@ DDPageControlType ;
 
 @property (nonatomic,retain) UIColor *onColor ;
 @property (nonatomic,retain) UIColor *offColor ;
+
+@property (nonatomic,retain) UIImage *onImage ;
+@property (nonatomic,retain) UIImage *offImage ;
 
 @property (nonatomic) CGFloat indicatorDiameter ;
 @property (nonatomic) CGFloat indicatorSpace ;

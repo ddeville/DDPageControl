@@ -42,6 +42,7 @@
 	[pageControl addTarget: self action: @selector(pageControlClicked:) forControlEvents: UIControlEventValueChanged] ;
 	[pageControl setDefersCurrentPageDisplay: YES] ;
 	[pageControl setType: DDPageControlTypeOnFullOffEmpty] ;
+    [pageControl setOnImage:[UIImage imageNamed:@"activeDot.png"]];
 	[pageControl setOnColor: [UIColor colorWithWhite: 0.9f alpha: 1.0f]] ;
 	[pageControl setOffColor: [UIColor colorWithWhite: 0.7f alpha: 1.0f]] ;
 	[pageControl setIndicatorDiameter: 15.0f] ;

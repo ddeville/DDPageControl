@@ -95,29 +95,37 @@
 		
 		if (i == currentPage)
 		{
-			if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
-			else
-			{
-				CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
+            if (self.onImage) {
+                CGContextDrawImage(context, CGRectInset(dotRect, (diameter - self.onImage.size.width)/2, (diameter - self.onImage.size.height)/2), self.onImage.CGImage);
+            }else{
+                if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+                else
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+            }
 		}
 		else
 		{
-			if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
-			else
-			{
-				CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
+            if (self.offImage) {
+                CGContextDrawImage(context, CGRectInset(dotRect, (diameter - self.offImage.size.width)/2, (diameter - self.offImage.size.height)/2), self.offImage.CGImage);
+            }else{
+                if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+                else
+                {
+                    CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+            }
 		}
 		
 		x += diameter + space ;
