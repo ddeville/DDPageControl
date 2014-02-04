@@ -17,12 +17,15 @@
 
 @synthesize numberOfPages ;
 @synthesize currentPage ;
+
 @synthesize hidesForSinglePage ;
 @synthesize defersCurrentPageDisplay ;
 
 @synthesize type ;
 @synthesize onColor ;
 @synthesize offColor ;
+@synthesize onImage;
+@synthesize offImage;
 @synthesize indicatorDiameter ;
 @synthesize indicatorSpace ;
 
@@ -52,10 +55,13 @@
 }
 
 - (void)dealloc 
-{
+{    
 	[onColor release], onColor = nil ;
 	[offColor release], offColor = nil ;
-	
+    
+    [onImage release], onImage = nil;
+    [offImage release], offImage = nil;
+    
 	[super dealloc] ;
 }
 
@@ -95,7 +101,11 @@
 		
 		if (i == currentPage)
 		{
-			if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
+            
+            if (type == DDPageControlTypeImages) {
+                [onImage drawInRect:dotRect];
+            }
+			else if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
 			{
 				CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
 				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
@@ -108,7 +118,10 @@
 		}
 		else
 		{
-			if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
+            if (type == DDPageControlTypeImages) {
+                [offImage drawInRect:dotRect];
+            }
+			else if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
 			{
 				CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
 				CGContextStrokeEllipseInRect(context, dotRect) ;
@@ -251,7 +264,7 @@
 		return ;
 	
 	// in case it is YES, we redraw the view (that will update the page control to the correct page)
-	[self setNeedsDisplay] ;
+	[self setNeedsDisplay];
 }
 
 - (CGSize)sizeForNumberOfPages:(NSInteger)pageCount
