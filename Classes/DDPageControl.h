@@ -24,6 +24,10 @@ DDPageControlType ;
 {
 	NSInteger numberOfPages ;
 	NSInteger currentPage ;
+    UIImageView *dotImageView;
+    
+    NSMutableDictionary *onImagesPerIndexDict;
+    NSMutableDictionary *offImagesPerIndexDict;
 }
 
 // Replicate UIPageControl features
@@ -48,8 +52,14 @@ DDPageControlType ;
 @property (nonatomic,retain) UIColor *onColor ;
 @property (nonatomic,retain) UIColor *offColor ;
 
+@property (nonatomic,retain) UIImage *onImage ;
+@property (nonatomic,retain) UIImage *offImage ;
+
 @property (nonatomic) CGFloat indicatorDiameter ;
 @property (nonatomic) CGFloat indicatorSpace ;
+
+-(void)addOnImage:(UIImage*)image forIndex:(NSInteger)index; // bypass onImage for specific index
+-(void)addOffImage:(UIImage*)image forIndex:(NSInteger)index; // bypass offImage for specific index
 
 @end
 

@@ -95,29 +95,52 @@
 		
 		if (i == currentPage)
 		{
-			if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
-			else
-			{
-				CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
+            if ([onImagesPerIndexDict objectForKey:[NSNumber numberWithInt:i]]) {
+                UIImage *image = [onImagesPerIndexDict objectForKey:[NSNumber numberWithInt:i]];
+                UIGraphicsBeginImageContext(image.size);
+                UIGraphicsPushContext(context);
+                [image drawInRect:CGRectInset(dotRect, (diameter - image.size.width)/2, (diameter - image.size.height)/2)];
+                UIGraphicsPopContext();
+                UIGraphicsEndImageContext();
+            }else if (self.onImage) {
+                CGContextDrawImage(context, CGRectInset(dotRect, (diameter - self.onImage.size.width)/2, (diameter - self.onImage.size.height)/2), self.onImage.CGImage);
+            }else{
+                if (type == DDPageControlTypeOnFullOffFull || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetFillColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+                else
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOnColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+            }
 		}
 		else
 		{
-			if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
-			{
-				CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextStrokeEllipseInRect(context, dotRect) ;
-			}
-			else
-			{
-				CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
-				CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
-			}
+            if ([offImagesPerIndexDict objectForKey:[NSNumber numberWithInt:i]]) {
+                UIImage *image = [offImagesPerIndexDict objectForKey:[NSNumber numberWithInt:i]];
+
+                UIGraphicsBeginImageContext(image.size);
+                UIGraphicsPushContext(context);
+                [image drawInRect:CGRectInset(dotRect, (diameter - image.size.width)/2, (diameter - image.size.height)/2)];
+                UIGraphicsPopContext();
+                UIGraphicsEndImageContext();
+            }else if (self.offImage) {
+                CGContextDrawImage(context, CGRectInset(dotRect, (diameter - self.offImage.size.width)/2, (diameter - self.offImage.size.height)/2), self.offImage.CGImage);
+            }else{
+                if (type == DDPageControlTypeOnEmptyOffEmpty || type == DDPageControlTypeOnFullOffEmpty)
+                {
+                    CGContextSetStrokeColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextStrokeEllipseInRect(context, dotRect) ;
+                }
+                else
+                {
+                    CGContextSetFillColorWithColor(context, drawOffColor.CGColor) ;
+                    CGContextFillEllipseInRect(context, CGRectInset(dotRect, -0.5f, -0.5f)) ;
+                }
+            }
 		}
 		
 		x += diameter + space ;
@@ -239,7 +262,21 @@
 	super.bounds = aBounds ;
 }
 
+#pragma mark - Images Per index Dictionaries
 
+-(void)addOnImage:(UIImage*)image forIndex:(NSInteger)index{
+    if (!onImagesPerIndexDict) {
+        onImagesPerIndexDict = [[NSMutableDictionary alloc]init];
+    }
+    [onImagesPerIndexDict setObject:image forKey:[NSNumber numberWithInt:index]];
+}
+
+-(void)addOffImage:(UIImage*)image forIndex:(NSInteger)index{
+    if (!offImagesPerIndexDict) {
+        offImagesPerIndexDict = [[NSMutableDictionary alloc]init];
+    }
+    [offImagesPerIndexDict setObject:image forKey:[NSNumber numberWithInt:index]];
+}
 
 #pragma mark -
 #pragma mark UIPageControl methods

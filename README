@@ -9,4 +9,8 @@ There are two color properties: one for 'on' controls and one for 'off' controls
 
 You can also set the type of indicators you want as a filled circle or a simple ellipse.
 
+Also you can use an image for 'on' or/and 'off' state.
+
 Finally, the diameter of every indicator and their spacing is also customizable by setting a couple of properties.
+
+
